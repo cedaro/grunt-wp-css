@@ -1,0 +1,39 @@
+{
+  "name": "grunt-wp-css",
+  "description": "Format style sheets according to the WordPress CSS coding standards.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/blazersix/grunt-wp-css",
+  "author": {
+    "name": "Brady Vercher",
+    "email": "brady@blazersix.com",
+    "url": "http://www.blazersix.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/blazersix/grunt-wp-css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/blazersix/grunt-wp-css/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/blazersix/grunt-wp-css/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "cssbeautify": "~0.3.1",
+    "csscomb": "~2.0.4",
+    "underscore": "~1.6.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-jshint": "~0.10.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
