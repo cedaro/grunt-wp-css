@@ -3,18 +3,21 @@
 *:after {
 	box-sizing: inherit;
 }
-
+/* Rule comment */
 html {
-	box-sizing: border-box;
-	/* Inline style. */
+	box-sizing: border-box; /* Inline comment. */
 }
+
+
+
+
+
 
 
 /**
  * Base Styles
  * -----------------------------------------------------------------------------
  */
-
 
 /* Section Heading
 ------------------------------------------------------------------------------*/
@@ -24,12 +27,9 @@ body.rtl {
 	direction: rtl;
 	unicode-bidi: embed;
 }
-
-
 /* Headings
- * @link http://csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/
+ * @link http://example.com/
 ------------------------------------------------------------------------------*/
-
 h1,
 h2,
 h3,

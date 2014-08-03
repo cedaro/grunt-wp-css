@@ -43,13 +43,13 @@ module.exports = function( grunt ) {
 		},
 
 		wpcss: {
+			comment_spacing: {
+				src: ['tmp/comment-spacing.css'],
+				dest: 'tmp/comment-spacing.css'
+			},
 			nested_blocks: {
 				src: ['tmp/nested-blocks.css'],
 				dest: 'tmp/nested-blocks.css'
-			},
-			section_spacing: {
-				src: ['tmp/section-spacing.css'],
-				dest: 'tmp/section-spacing.css'
 			},
 			single_line_selectors: {
 				src: ['tmp/single-line-selectors.css'],

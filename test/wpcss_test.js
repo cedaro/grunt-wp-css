@@ -38,15 +38,15 @@ exports.makepot = {
 		done();
 	},
 
-	nested_blocks: function( test ) {
+	comment_spacing: function( test ) {
 		test.expect( 1 );
-		test.ok( getTestData( 'nested-blocks' ).isEqual, "nested blocks don't match the expected output" );
+		test.ok( getTestData( 'comment-spacing' ).isEqual, "comments weren't spaced correctly" );
 		test.done();
 	},
 
-	section_spacing: function( test ) {
+	nested_blocks: function( test ) {
 		test.expect( 1 );
-		test.ok( getTestData( 'section-spacing' ).isEqual, "section comments should follow two newlines" );
+		test.ok( getTestData( 'nested-blocks' ).isEqual, "nested blocks don't match the expected output" );
 		test.done();
 	},
 
