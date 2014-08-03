@@ -2,23 +2,23 @@
   "name": "grunt-wp-css",
   "description": "Format style sheets according to the WordPress CSS coding standards.",
   "version": "0.1.0",
-  "homepage": "https://github.com/blazersix/grunt-wp-css",
+  "homepage": "https://github.com/cedaro/grunt-wp-css",
   "author": {
     "name": "Brady Vercher",
     "email": "brady@blazersix.com",
-    "url": "http://www.blazersix.com/"
+    "url": "http://www.cedaro.com/"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/blazersix/grunt-wp-css.git"
+    "url": "git://github.com/cedaro/grunt-wp-css.git"
   },
   "bugs": {
-    "url": "https://github.com/blazersix/grunt-wp-css/issues"
+    "url": "https://github.com/cedaro/grunt-wp-css/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/blazersix/grunt-wp-css/blob/master/LICENSE-MIT"
+      "url": "https://github.com/cedaro/grunt-wp-css/blob/master/LICENSE-MIT"
     }
   ],
   "dependencies": {

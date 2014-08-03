@@ -1,8 +1,8 @@
 /*
  * grunt-wp-css
- * http://www.blazersix.com/
+ * http://www.cedaro.com/
  *
- * Copyright (c) 2014 Blazer Six, Inc.
+ * Copyright (c) 2014 Cedaro
  * Licensed under the MIT license.
  */
 
