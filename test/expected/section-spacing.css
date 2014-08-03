@@ -1,0 +1,25 @@
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+
+/**
+ * Base Styles
+ * -----------------------------------------------------------------------------
+ */
+
+
+/* Section Heading
+------------------------------------------------------------------------------*/
+
+/* @noflip */
+body.rtl {
+	direction: rtl;
+	unicode-bidi: embed;
+}

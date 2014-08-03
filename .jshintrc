@@ -1,7 +1,7 @@
 {
 	"boss": true,
-	"browser": true,
 	"curly": true,
+	"devel": true,
 	"eqeqeq": true,
 	"eqnull": true,
 	"expr": true,
@@ -15,5 +15,5 @@
 	"sub": true,
 	"trailing": true,
 	"undef": true,
-	"unused": true
+	"unused": "vars"
 }

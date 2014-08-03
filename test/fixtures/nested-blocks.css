@@ -1,0 +1,7 @@
+@media only screen and (min-width: 600px) {
+.button,
+button,
+input[type="button"] {
+	font-size: 2.4rem;
+}
+}

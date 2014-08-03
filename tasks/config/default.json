@@ -28,7 +28,7 @@
     "sort-order": [
         "$variable",
         "$include",
-        
+
         "display",
         "visibility",
         "float",

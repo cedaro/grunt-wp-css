@@ -40,8 +40,8 @@ module.exports = function( grunt ) {
 		}
 
 		configKeys = _.keys( config );
-		config = _.extend( config, userConfig, options );
-		config = _.pick( config, configKeys );
+		config     = _.extend( config, userConfig, options );
+		config     = _.pick( config, configKeys );
 
 		comb.configure( config );
 
