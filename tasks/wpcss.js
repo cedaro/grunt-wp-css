@@ -62,6 +62,9 @@ module.exports = function( grunt ) {
 			contents = cssbeautify( contents );
 			contents = comb.processString( contents );
 
+			// Add two newlines before all comments that trail a closing curly brace.
+			contents = contents.replace( /}\s+\/\*/, '}\n\n/*' );
+
 			// Collapse extra newlines.
 			contents = contents.replace( /\n{3,}/g, '\n\n' );
 
