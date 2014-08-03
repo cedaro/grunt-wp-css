@@ -5,7 +5,7 @@
 }
 
 html {
-	box-sizing: border-box;
+	box-sizing: border-box; /* Inline style. */
 }
 
 
@@ -26,4 +26,15 @@ html {
 body.rtl {
 	direction: rtl;
 	unicode-bidi: embed;
+}
+/* Headings
+ * @link http://csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/
+------------------------------------------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 700;
 }
