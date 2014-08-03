@@ -62,6 +62,13 @@ module.exports = function( grunt ) {
 			contents = cssbeautify( contents );
 			contents = comb.processString( contents );
 
+			// Collapse extra newlines.
+			contents = contents.replace( /\n{3,}/g, '\n\n' );
+
+			// Comments with at least 20 dashes in them are considered
+			// section headings and should follow two newlines.
+			contents = contents.replace(/\s+(\/\*[^\/]+-{20,})/g, '\n\n\n$1');
+
 			grunt.file.write( f.dest, contents );
 		});
 	});
