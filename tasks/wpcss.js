@@ -74,6 +74,9 @@ module.exports = function( grunt ) {
 				// section headings and should follow two newlines.
 				contents = contents.replace(/\s*(\/\*((?!\*\/)[\s\S])+-{20,}[\s\S]*?\*\/)\s*/g, '\n\n\n$1\n\n');
 				contents = contents.replace( /\n{4,}/g, '\n\n\n' );
+
+				// Trim whitespace at the beginning of the file.
+				contents = contents.replace( /^\s*/, '' );
 			}
 
 			grunt.file.write( f.dest, contents );
