@@ -25,6 +25,7 @@ module.exports = function( grunt ) {
 			options;
 
 		options = this.options({
+			commentSpacing: true,
 			config: 'default'
 		});
 
@@ -62,16 +63,18 @@ module.exports = function( grunt ) {
 			contents = cssbeautify( contents );
 			contents = comb.processString( contents );
 
-			// Add two newlines before all comments that trail a closing curly brace.
-			contents = contents.replace( /}\s+\/\*/g, '}\n\n/*' );
+			if ( options.commentSpacing ) {
+				// Add two newlines before all comments that follow a closing curly brace.
+				contents = contents.replace( /}\s+\/\*/g, '}\n\n/*' );
 
-			// Collapse extra newlines.
-			contents = contents.replace( /\n{3,}/g, '\n\n' );
+				// Collapse extra newlines.
+				contents = contents.replace( /\n{3,}/g, '\n\n' );
 
-			// Comments with at least 20 dashes in them will be considered
-			// section headings and should follow two newlines.
-			contents = contents.replace(/\s*(\/\*((?!\*\/)[\s\S])+-{20,}[\s\S]*?\*\/)\s*/g, '\n\n\n$1\n\n');
-			contents = contents.replace( /\n{4,}/g, '\n\n\n' );
+				// Comments with at least 20 dashes in them will be considered
+				// section headings and should follow two newlines.
+				contents = contents.replace(/\s*(\/\*((?!\*\/)[\s\S])+-{20,}[\s\S]*?\*\/)\s*/g, '\n\n\n$1\n\n');
+				contents = contents.replace( /\n{4,}/g, '\n\n\n' );
+			}
 
 			grunt.file.write( f.dest, contents );
 		});
