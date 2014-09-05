@@ -1,0 +1,38 @@
+.single-line {
+	font-size: 2em; font-weight: 700;
+}
+
+.single-line-then-one {
+	font-size: 2em; font-weight: 700;
+	text-align: center;
+}
+
+.one-then-single-line {
+	text-align: center;
+	font-size: 2em; font-weight: 700;
+}
+
+.one-then-single-line-then-one {
+	margin: 0;
+	font-size: 2em; font-weight: 700;
+	text-align: center;
+}
+
+.multiple-lines {
+	display: block; margin: 0; padding: 0;
+	font-weight: 700; font-size: 2em; text-align: center;
+}
+
+.single-line-whitespace-separators {
+	display: block;margin: 0;  padding: 0;
+	font-weight: 700;	font-size: 2em; 	text-align: center;
+}
+
+.linespace {
+	display: block;
+
+	margin: 0;
+
+
+	padding: 0;
+}

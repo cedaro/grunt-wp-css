@@ -55,4 +55,10 @@ exports.makepot = {
 		test.ok( getTestData( 'single-line-selectors' ).isEqual, 'selectors should appear on their own line' );
 		test.done();
 	},
+
+	single_line_declarations: function( test ) {
+		test.expect( 1 );
+		test.ok( getTestData( 'single-line-declarations' ).isEqual, 'declarations should appear on their own line' );
+		test.done();
+	},
 };
