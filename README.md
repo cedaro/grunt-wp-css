@@ -32,7 +32,6 @@ grunt.initConfig({
         target: {
             options: {
                 commentSpacing: true, // Whether to clean up newlines around comments between CSS rules.
-                config: '',           // Which CSSComb config to use for sorting properties.
             },
             files: {}
         }
@@ -50,13 +49,6 @@ Default value: `true`
 *Optional*
 
 Whether the plugin should attempt to automatically correct spacing around comments that appear between rule declarations within the style sheet.
-
-#### options.config
-Type: `String`  
-Default value: `'default'`
-
-The CSSComb configuration to use for sorting CSS properties. Possible values are `default` or `alphabetical`.
-
 
 ## Release History
 
