@@ -47,6 +47,10 @@ module.exports = function( grunt ) {
 				src: ['tmp/comment-spacing.css'],
 				dest: 'tmp/comment-spacing.css'
 			},
+			font_face: {
+				src: ['tmp/font-face.css'],
+				dest: 'tmp/font-face.css'
+			},
 			nested_blocks: {
 				src: ['tmp/nested-blocks.css'],
 				dest: 'tmp/nested-blocks.css'
@@ -54,6 +58,10 @@ module.exports = function( grunt ) {
 			single_line_selectors: {
 				src: ['tmp/single-line-selectors.css'],
 				dest: 'tmp/single-line-selectors.css'
+			},
+			single_line_declarations: {
+				src: ['tmp/single-line-declarations.css'],
+				dest: 'tmp/single-line-declarations.css'
 			}
 		},
 

@@ -44,6 +44,12 @@ exports.makepot = {
 		test.done();
 	},
 
+	font_face: function( test ) {
+		test.expect( 1 );
+		test.ok( getTestData( 'font-face' ).isEqual, "@font-face src wasn't ordered correctly" );
+		test.done();
+	},
+
 	nested_blocks: function( test ) {
 		test.expect( 1 );
 		test.ok( getTestData( 'nested-blocks' ).isEqual, "nested blocks don't match the expected output" );
@@ -53,6 +59,12 @@ exports.makepot = {
 	single_line_selectors: function( test ) {
 		test.expect( 1 );
 		test.ok( getTestData( 'single-line-selectors' ).isEqual, 'selectors should appear on their own line' );
+		test.done();
+	},
+
+	single_line_declarations: function( test ) {
+		test.expect( 1 );
+		test.ok( getTestData( 'single-line-declarations' ).isEqual, 'declarations should appear on their own line' );
 		test.done();
 	},
 };
