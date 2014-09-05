@@ -47,6 +47,10 @@ module.exports = function( grunt ) {
 				src: ['tmp/comment-spacing.css'],
 				dest: 'tmp/comment-spacing.css'
 			},
+			font_face: {
+				src: ['tmp/font-face.css'],
+				dest: 'tmp/font-face.css'
+			},
 			nested_blocks: {
 				src: ['tmp/nested-blocks.css'],
 				dest: 'tmp/nested-blocks.css'

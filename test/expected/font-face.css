@@ -1,0 +1,10 @@
+@font-face {
+	font-family: "Genericons";
+	src: url("font/Genericons.eot");
+	src: url("font/Genericons.eot?#iefix") format("embedded-opentype"),
+	url("font/Genericons.woff") format("woff"),
+	url("font/Genericons.ttf") format("truetype"),
+	url("font/Genericons.svg#Genericons") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
