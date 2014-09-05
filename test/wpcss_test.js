@@ -33,7 +33,7 @@ function getTestData( id ) {
 	};
 }
 
-exports.makepot = {
+exports.wpcss = {
 	setUp: function( done ) {
 		done();
 	},
