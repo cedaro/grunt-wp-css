@@ -20,22 +20,16 @@ module.exports = function( grunt ) {
 		var comb = new Comb(),
 			config = {},
 			configKeys = {},
-			configPath = {},
 			userConfig = {},
 			options;
 
 		options = this.options({
-			commentSpacing: true,
-			config: 'default'
+			commentSpacing: true
 		});
 
-		configPath = path.resolve( __dirname, 'config/' + options.config + '.json' );
-		if ( fs.existsSync( configPath ) ) {
-			config = require( configPath );
-		} else {
-			grunt.fatal( 'Invalid config defined.' );
-		}
+		config = require( path.resolve( __dirname, 'config.json' ) );
 
+		// Allow project-specific config
 		if ( grunt.file.exists( '.csscomb.json' ) ) {
 			userConfig = grunt.file.readJSON( '.csscomb.json' );
 		}
