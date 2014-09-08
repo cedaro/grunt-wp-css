@@ -58,6 +58,11 @@ Default value: `'default'`
 The CSSComb configuration to use for sorting CSS properties. Possible values are `default` or `alphabetical`.
 
 
+## Contributors
+
+Thanks to [Gary Jones](https://github.com/GaryJones) of [Gamajo Tech](http://gamajo.com/) for researching and providing the default configuration rules, among [many other improvements](https://github.com/cedaro/grunt-wp-css/commits?author=GaryJones).
+
+
 ## Release History
 
 #### 0.1.0
