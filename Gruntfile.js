@@ -19,19 +19,6 @@ module.exports = function( grunt ) {
 			tests: ['tmp']
 		},
 
-		copy: {
-			tests: {
-				files: [
-					{
-						expand: true,
-						cwd: 'test/fixtures',
-						src: ['**'],
-						dest: 'tmp/'
-					}
-				]
-			}
-		},
-
 		jshint: {
 			options : {
 				jshintrc : '.jshintrc'
@@ -44,23 +31,23 @@ module.exports = function( grunt ) {
 
 		wpcss: {
 			comment_spacing: {
-				src: ['tmp/comment-spacing.css'],
+				src: ['test/fixtures/comment-spacing.css'],
 				dest: 'tmp/comment-spacing.css'
 			},
 			font_face: {
-				src: ['tmp/font-face.css'],
+				src: ['test/fixtures/font-face.css'],
 				dest: 'tmp/font-face.css'
 			},
 			nested_blocks: {
-				src: ['tmp/nested-blocks.css'],
+				src: ['test/fixtures/nested-blocks.css'],
 				dest: 'tmp/nested-blocks.css'
 			},
 			single_line_selectors: {
-				src: ['tmp/single-line-selectors.css'],
+				src: ['test/fixtures/single-line-selectors.css'],
 				dest: 'tmp/single-line-selectors.css'
 			},
 			single_line_declarations: {
-				src: ['tmp/single-line-declarations.css'],
+				src: ['test/fixtures/single-line-declarations.css'],
 				dest: 'tmp/single-line-declarations.css'
 			}
 		},
@@ -73,6 +60,6 @@ module.exports = function( grunt ) {
 
 	grunt.registerTask( 'default', [ 'jshint' ] );
 
-	grunt.registerTask( 'test', ['clean:tests', 'copy:tests', 'wpcss', 'nodeunit']);
+	grunt.registerTask( 'test', ['clean:tests', 'wpcss', 'nodeunit']);
 
 };
