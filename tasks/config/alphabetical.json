@@ -29,14 +29,14 @@
 	"strip-spaces": true,
 	"unitless-zero": true,
 	"sort-order": [
-        [
+		[
 			"$variable",
 			"$include",
 			"$import"
 		],
 
 		[
-            "-moz-animation",
+			"-moz-animation",
 			"-ms-animation",
 			"-o-animation",
 			"-webkit-animation",
@@ -329,6 +329,6 @@
 			"-ms-writing-mode",
 			"z-index",
 			"zoom"
-        ]
-    ]
+		]
+	]
 }
