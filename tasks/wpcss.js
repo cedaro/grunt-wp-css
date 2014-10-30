@@ -16,7 +16,7 @@ module.exports = function( grunt ) {
 		fs = require( 'fs' ),
 		path = require( 'path' );
 
-	grunt.registerMultiTask( 'wpcss', function() {
+	grunt.registerMultiTask( 'wpcss', 'Format style sheets to match WordPress coding standards.', function() {
 		var comb = new Comb(),
 			config = {},
 			configKeys = {},
