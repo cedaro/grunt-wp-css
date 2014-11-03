@@ -9,8 +9,9 @@
 
 /* Rule comment */
 html {
-	box-sizing: border-box;
-	/* Inline comment. */
+	box-sizing: border-box; /* Inline comment using space */
+	/* Inline comment on own line */
+	color: #fff;	/* Inline comment using tab */
 }
 
 

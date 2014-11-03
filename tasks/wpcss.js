@@ -12,7 +12,6 @@ module.exports = function( grunt ) {
 
 	var _ = require( 'underscore' ),
 		Comb = require( 'csscomb' ),
-		cssbeautify = require( 'cssbeautify' ),
 		fs = require( 'fs' ),
 		path = require( 'path' );
 
@@ -60,7 +59,6 @@ module.exports = function( grunt ) {
 				return grunt.file.read( filepath ).trim();
 			}).join( '\n\n' );
 
-			contents = cssbeautify( contents );
 			contents = comb.processString( contents );
 
 			if ( options.commentSpacing ) {
