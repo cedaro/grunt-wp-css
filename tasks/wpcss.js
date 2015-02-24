@@ -10,7 +10,7 @@
 
 module.exports = function( grunt ) {
 
-	var _ = require( 'underscore' ),
+	var _ = require( 'lodash' ),
 		Comb = require( 'csscomb' ),
 		cssbeautify = require( 'cssbeautify' ),
 		fs = require( 'fs' ),
