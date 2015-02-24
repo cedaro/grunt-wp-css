@@ -65,6 +65,15 @@ Thanks to [Gary Jones](https://github.com/GaryJones) of [Gamajo Tech](http://gam
 
 ## Release History
 
+#### 0.2.0
+
+This is the [@GaryJones](https://github.com/GaryJones) release.
+
+* Updated the default CSScomb config ([0887c06](https://github.com/cedaro/grunt-wp-css/commit/0887c06993c7eeea2c716d2d9ba523f3663dfa8b)).
+* Updated the alphabetical CSScomb config to match improvements in the new default config.
+* Fixed the exports variable name in the tests.
+* Added Travis CI support.
+
 #### 0.1.0
 
 * Initial release.
