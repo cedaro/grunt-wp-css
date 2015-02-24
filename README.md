@@ -1,4 +1,4 @@
-# grunt-wp-css
+# grunt-wp-css [![Build Status](https://travis-ci.org/cedaro/grunt-wp-css.png?branch=develop)](https://travis-ci.org/cedaro/grunt-wp-css)
 
 > Format style sheets according to the [WordPress CSS coding standards](http://make.wordpress.org/core/handbook/coding-standards/css/).
 
