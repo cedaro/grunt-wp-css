@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "cssbeautify": "~0.3.1",
-    "csscomb": "~3.1.4",
+    "csscomb": "~3.1.5",
     "lodash": "~3.9.2"
   },
   "devDependencies": {
