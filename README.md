@@ -65,6 +65,10 @@ Thanks to [Gary Jones](https://github.com/GaryJones) of [Gamajo Tech](http://gam
 
 ## Release History
 
+#### 0.2.1
+
+Updated peer dependencies to support Grunt 1.0. See [#13](https://github.com/cedaro/grunt-wp-css/pull/13)
+
 #### 0.2.0
 
 This is the [@GaryJones](https://github.com/GaryJones) release.
